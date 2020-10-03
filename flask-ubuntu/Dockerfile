@@ -3,7 +3,7 @@ FROM ubuntu
 RUN apt-get update -y 
 RUN apt-get install -y python3 python3-pip build-essential
 RUN pip3 install flask
-RUN mkdir -p /opt/boston_wise
+RUN mkdir -p /opt/flask-ubuntu
 
 COPY app.py /opt/flask-ubuntu/app.py
 
